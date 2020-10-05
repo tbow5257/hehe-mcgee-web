@@ -13,7 +13,11 @@ const renderApp = () => (
   <Container maxWidth="md">
     <Box my={4} width={1}>
       <Typography variant="h4" component="h1" gutterBottom>
-        Todo make this shit dark
+        Todo make this
+        <span role="img" aria-labelledby="wat">
+          🍏🍏
+        </span>
+        dark
       </Typography>
       <Form />
     </Box>
